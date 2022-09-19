@@ -117,7 +117,8 @@
   justify-content: space-between;
 }
 .home-image {
-  height: 2rem;
+  width: 145px;
+  height: 32px;
   object-fit: cover;
 }
 .home-nav {
@@ -472,7 +473,8 @@
   flex-direction: column;
 }
 .home-image3 {
-  height: 2rem;
+  width: 145px;
+  height: 32px;
 }
 .home-text52 {
   margin-top: var(--dl-space-space-oneandhalfunits);
