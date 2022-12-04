@@ -1,23 +1,18 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <title>KustomerKatcher</title>
     <meta property="og:title" content="KustomerKatcher" />
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
     <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
     </style>
     <style data-tag="default-style-sheet">
       html {
-        /*font-family: Inter;*/
-        font-family: Verdana,'Open Sans', Geneva, Tahoma, sans-serif;
+        font-family: Inter;
         font-size: 16px;
       }
 
@@ -33,12 +28,13 @@
 
       }
     </style>
-    <!--<link
+    <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
       data-tag="font"
-    />-->
-
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -49,7 +45,7 @@
         <header data-role="Header" class="home-header">
           <img
             alt="logo"
-            src="https://res.cloudinary.com/dklongley/image/upload/w_145,h_32,f_auto/logo.png"
+            src="https://res.cloudinary.com/dklongley/image/upload/w_145,h_32/logo.png"
             class="home-image"
           />
           <div class="home-nav">
@@ -78,22 +74,22 @@
               ></path>
             </svg>
           </div>
-          <div data-type="BurgerMenu" class="home-burger-menu">
+          <div data-role="BurgerMenu" class="home-burger-menu">
             <svg viewBox="0 0 1024 1024" class="home-icon06">
               <path
                 d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
               ></path>
             </svg>
           </div>
-          <div data-type="MobileMenu" class="home-mobile-menu">
+          <div data-role="MobileMenu" class="home-mobile-menu">
             <div class="home-nav1">
               <div class="home-container01">
                 <img
                   alt="image"
-                  src="https://res.cloudinary.com/dklongley/image/upload/w_145,h_32,f_auto/logo.png"
+                  src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
                   class="home-image1"
                 />
-                <div data-type="CloseMobileMenu" class="home-close-mobile-menu">
+                <div data-role="CloseMobileMenu" class="home-close-mobile-menu">
                   <svg viewBox="0 0 1024 1024" class="home-icon08">
                     <path
                       d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
@@ -132,7 +128,7 @@
         </header>
         <div class="home-hero">
           <div class="home-container02">
-            <h1 class="home-text">Let&apos;s keep things organised</h1>
+            <h1 class="home-text">Let's keep things organised</h1>
             <span class="home-text01">
               <span>
                 The KustomerKatcher will find you. Lorem ipsum dolor sit amet,
@@ -223,9 +219,9 @@
           </div>
           <div class="home-container08">
             <img
-              src="https://res.cloudinary.com/dklongley/image/upload/w_652,h_434,f_auto/lemons.jpg"
-              loading="eager"
               alt="image"
+              src="https://res.cloudinary.com/dklongley/image/upload/w_652,h_434/lemons.jpg"
+              loading="eager"
               class="home-image2"
             />
           </div>
@@ -259,7 +255,7 @@
                 </span>
                 <img
                   alt="profile"
-                  src="https://images.unsplash.com/photo-1583195764036-6dc248ac07d9?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE2fHxtYW58ZW58MHx8fHwxNjI2NDUyMDM1&ixlib=rb-1.2.1&h=96"
+                  src="https://images.unsplash.com/photo-1583195764036-6dc248ac07d9?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE2fHxtYW58ZW58MHx8fHwxNjI2NDUyMDM1&amp;ixlib=rb-1.2.1&amp;h=1200"
                   class="testimonial-card3-image"
                 />
                 <span class="testimonial-card3-text1">
@@ -286,7 +282,7 @@
                 </span>
                 <img
                   alt="profile"
-                  src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxtYW58ZW58MHx8fHwxNjI2NDUyMDM1&ixlib=rb-1.2.1&h=96"
+                  src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxtYW58ZW58MHx8fHwxNjI2NDUyMDM1&amp;ixlib=rb-1.2.1&amp;h=1200"
                   class="testimonial-card3-image"
                 />
                 <span class="testimonial-card3-text1">
@@ -313,7 +309,7 @@
                 </span>
                 <img
                   alt="profile"
-                  src="https://images.unsplash.com/photo-1546456073-ea246a7bd25f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDh8fGJsYWNrJTIwbWFufGVufDB8fHx8MTYyNjQ1MjAwOA&ixlib=rb-1.2.1&h=96"
+                  src="https://images.unsplash.com/photo-1546456073-ea246a7bd25f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDh8fGJsYWNrJTIwbWFufGVufDB8fHx8MTYyNjQ1MjAwOA&amp;ixlib=rb-1.2.1&amp;h=1200"
                   class="testimonial-card3-image"
                 />
                 <span class="testimonial-card3-text1">
@@ -328,7 +324,7 @@
             <div class="home-logo">
               <img
                 alt="logo"
-                src="https://res.cloudinary.com/dklongley/image/upload/w_145,h_32,f_auto/logo.png"
+                src="https://res.cloudinary.com/dklongley/image/upload/w_145,h_32/logo.png"
                 class="home-image3"
               />
               <span class="home-text52">
@@ -395,12 +391,16 @@
           </div>
           <div class="home-separator"></div>
           <span class="home-text72">
-            <span>© 2021 dindino, All Rights Reserved.</span>
+            <span>© 2021 teleportHQ, All Rights Reserved.</span>
             <span class="home-text74"></span>
             <span></span>
           </span>
         </footer>
       </div>
     </div>
+    <script
+      data-section-id="header"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
   </body>
 </html>
