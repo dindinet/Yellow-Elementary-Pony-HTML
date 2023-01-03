@@ -36,6 +36,7 @@
     <!--This is the head section-->
     <!-- <style> ... </style> -->
     <link rel="stylesheet" href="./style.css" />
+    <script type="text/javascript" src="pdfinline.js"></script>
   </head>
   <body>
     <div>
@@ -127,17 +128,8 @@
           </div>
 
         </div>
-<div id="adobe-dc-view" style="width: 800px;"></div>
-<script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
-<script type="text/javascript">
-	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-		var adobeDCView = new AdobeDC.View({clientId: "1f840fa5cc4b40148bf8732629da44cf", divId: "adobe-dc-view"});
-		adobeDCView.previewFile({
-			content:{location: {url: "https://www.becentralbedfordshire.co.uk/media/rzfdapjk/central-bedfordshire-investment-brochure.pdf"}},
-			metaData:{fileName: "central-bedfordshire-investment-brochure.pdf"}
-		}, {embedMode: "IN_LINE"});
-	});
-</script>
+        <div id="adobe-dc-view" style="width: 800px; box-shadow: 1px 1px 10px 1px #dadada;"></div>
+        <script type="text/javascript" src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
        
        
       </div>
