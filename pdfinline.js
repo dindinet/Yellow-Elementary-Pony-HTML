@@ -48,13 +48,13 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
             fileName: "central-bedfordshire-investment-brochure.pdf"
         }
     }, viewerConfig);
+    adobeDCView.registerCallback(
+        /* Type of call back */
+        AdobeDC.View.Enum.CallbackType.EVENT_LISTENER,
+        /* call back function */
+        function(event) {
+          console.log(event);
+        },
+        { enablePDFAnalytics: false }
+      );
 });
-adobeDCView.registerCallback(
-    /* Type of call back */
-    AdobeDC.View.Enum.CallbackType.EVENT_LISTENER,
-    /* call back function */
-    function(event) {
-      console.log(event);
-    },
-    { enablePDFAnalytics: false }
-  );
