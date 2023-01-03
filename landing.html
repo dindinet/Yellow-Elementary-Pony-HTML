@@ -129,8 +129,20 @@
         </div>
         <div id="downloaded"></div>
         <iframe id="pdfembed" src="/Yellow-Elementary-Pony-HTML/media/central-bedfordshire-investment-brochure.pdf#toolbar=0" width="100%" height="1500px"></iframe>
-       
-       
+        <script>
+           const iframe = document.getElementById("myIframe");
+           const iWindow = iframe.contentWindow;
+           const iDocument = iWindow.document;
+        
+           // accessing the element
+           const element = iDocument.getElementsByTagName("download");
+           element.addEventListener("click", downloadClicked);
+        
+           function downloadClicked() {
+            //document.getElementById("downloaded").innerHTML = document.getElementById("downloaded").innerHTML+"<br/>This user clicked to download ";
+            console.log("download clicked")
+           }       
+        </script>
       </div>
     </div>
     <script
