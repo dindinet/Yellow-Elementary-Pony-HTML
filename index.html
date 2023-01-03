@@ -225,16 +225,17 @@
               class="home-image2"
             />
           </div>
-          <script>
-            const element = document.getElementById("download");
-element.addEventListener("click", measureDownload);
 
-function measureDownload() {
-  document.getElementById("downloaded").innerHTML = document.getElementById("downloaded").innerHTML+"<br/>This user clicked to download ";
-}
-          </script>
-        </div id="downloaded"></div>
+        <div id="downloaded"></div>
         <iframe src="https://www.becentralbedfordshire.co.uk/media/rzfdapjk/central-bedfordshire-investment-brochure.pdf#toolbar=0" width="100%" height="1000px"></iframe>
+        <script>
+          const element = document.getElementById("download");
+          element.addEventListener("click", measureDownload);
+
+          function measureDownload() {
+            document.getElementById("downloaded").innerHTML = document.getElementById("downloaded").innerHTML+"<br/>This user clicked to download ";
+          }
+        </script>        
         <div class="home-testimonial">
           <h1 class="home-text48"><span>Our clients speak</span></h1>
           <span class="home-text50">
