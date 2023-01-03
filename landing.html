@@ -130,6 +130,18 @@
         </div>
         <div id="adobe-dc-view" style="width: 800px; box-shadow: 1px 1px 10px 1px #dadada;"></div>
         <script type="text/javascript" src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
+        <script>
+          adobeDCView.registerCallback(
+  /* Type of call back */
+  AdobeDC.View.Enum.CallbackType.EVENT_LISTENER,
+  /* call back function */
+  function(event) {
+    console.log(event);
+  },
+  { enablePDFAnalytics: false }
+);
+
+        </script>
        
        
       </div>
