@@ -30,7 +30,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
         content: {
             /* Location of file where it is hosted */
             location: {
-                url: "https://www.becentralbedfordshire.co.uk/media/rzfdapjk/central-bedfordshire-investment-brochure.pdf",
+                url: "https://dindinet.github.io/Yellow-Elementary-Pony-HTML/media/central-bedfordshire-investment-brochure.pdf",
                 /*
                 If the file URL requires some additional headers, then it can be passed as follows:-
                 header: [
