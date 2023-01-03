@@ -127,8 +127,17 @@
           </div>
 
         </div>
-        <div id="downloaded"></div>
-        <iframe src="/Yellow-Elementary-Pony-HTML/media/central-bedfordshire-investment-brochure.pdf#toolbar=0" width="100%" height="1500px"></iframe>
+<div id="adobe-dc-view" style="width: 800px;"></div>
+<script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+		var adobeDCView = new AdobeDC.View({clientId: "1f840fa5cc4b40148bf8732629da44cf", divId: "adobe-dc-view"});
+		adobeDCView.previewFile({
+			content:{location: {url: "https://www.becentralbedfordshire.co.uk/media/rzfdapjk/central-bedfordshire-investment-brochure.pdf"}},
+			metaData:{fileName: "central-bedfordshire-investment-brochure.pdf"}
+		}, {embedMode: "IN_LINE"});
+	});
+</script>
        
        
       </div>
