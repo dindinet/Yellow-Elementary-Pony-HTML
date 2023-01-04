@@ -127,25 +127,8 @@
           </div>
 
         </div>
-        <div id="downloaded"></div>
         <iframe id="pdfembed" src="https://dindinet.github.io/Yellow-Elementary-Pony-HTML/media/central-bedfordshire-investment-brochure.pdf#toolbar=0" style="width:100%;height:190vh;"></iframe>
-        <script>
 
-           const iframe = document.getElementById("pdfembed");
-           iframe.onload = function() {
-             const iWindow = iframe.contentWindow;
-             const iDocument = iWindow.document;       
-             // accessing the element
-             const element = iDocument.getElementsByTagName("download");
-             element.addEventListener("click", downloadClicked); 
-          }
-
-          function downloadClicked() {
-            //document.getElementById("downloaded").innerHTML = document.getElementById("downloaded").innerHTML+"<br/>This user clicked to download ";
-            console.log("download clicked")
-           } 
-
-        </script>
       </div>
     </div>
     <script
