@@ -383,7 +383,7 @@
 .home-container07 {
   flex: initial;
   width: 50%;
-  height: 400px;
+  height: auto;
   display: flex;
   padding: var(--dl-space-space-twounits);
   align-items: flex-start;
