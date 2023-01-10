@@ -383,7 +383,7 @@
 .home-container07 {
   flex: initial;
   width: 50%;
-  height: auto;
+  height: 400px;
   display: flex;
   padding: var(--dl-space-space-twounits);
   align-items: flex-start;
@@ -414,8 +414,8 @@
 }
 .home-image2 {
   flex: auto;
-  width: 326px;
-  height: 217px;
+  width: 652px;
+  height: 434px;
   object-fit: cover;
 }
 .home-testimonial {
