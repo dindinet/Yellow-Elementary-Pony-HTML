@@ -40,6 +40,10 @@
   <body>
     <div>
       <link href="./home.css" rel="stylesheet" />
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html@0.1.11/dist/default/lib.umd.js"
+      ></script>
 
       <div class="home-container">
         <header data-role="Header" class="home-header">
@@ -396,12 +400,22 @@
             <span></span>
           </span>
         </footer>
+        <div class="home-container13">
+          <div>
+            <dangerous-html
+              html="<!-- Calendly badge widget begin -->
+<link href='https://assets.calendly.com/assets/external/widget.css' rel='stylesheet'>
+<script src='https://assets.calendly.com/assets/external/widget.js' type='text/javascript' async></script>
+<script type='text/javascript'>window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/dklongley/1-hour-meeting', text: 'Book 1 hour Consultancy Meeting', color: '#0f915d', textColor: '#ffffff', branding: undefined }); }</script>
+<!-- Calendly badge widget end -->"
+            ></dangerous-html>
+          </div>
+        </div>
       </div>
     </div>
     <script
       data-section-id="header"
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
     ></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </body>
 </html>
