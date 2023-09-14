@@ -1,0 +1,8 @@
+.logo-base64-container {
+  display: flex;
+  position: relative;
+}
+.logo-base64-div {
+  display: contents;
+}
+
