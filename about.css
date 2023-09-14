@@ -119,6 +119,12 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
+.about-link {
+  display: contents;
+}
+.about-component {
+  text-decoration: none;
+}
 .about-nav {
   display: flex;
 }
